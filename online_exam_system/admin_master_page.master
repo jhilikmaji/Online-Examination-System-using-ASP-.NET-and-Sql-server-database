@@ -1,0 +1,145 @@
+﻿<%@ Master Language="VB" CodeFile="main_master_page.master.vb" Inherits="main_master_page" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 55px;
+        }
+        .style2
+        {
+            width: 47px;
+        }
+        .style3
+        {
+            width: 43px;
+        }
+        .style5
+        {
+            width: 402px;
+        }
+        .style6
+        {
+            width: 416px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="height: 491px; width: 1347px;">
+        <asp:Panel ID="Panel1" runat="server" Height="130px" 
+            BackImageUrl="~/photos/master header.jpg">
+            <br />
+            <br />
+            <br />
+          <!DOCTYPE HTML>
+<html>
+<head>
+<title>Untitled</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="index_files/mbcsmbmcp.css" type="text/css" />
+</head>
+<body>
+
+
+<!-- Navigation menus created with the free version of Easy CSS Menu downloaded from www.easycssmenu.com
+     You are free to use this menu code for personal, non-commercial use only. Any other use is a serious violation of copyright laws.
+     You are required to retain this comment block in your website code in an unchanged fashion.
+     The above limitations do not apply on menus created with the paid version of the software. -->
+<div id="mbmcpebul_wrapper" style="max-width: 300px;">
+  <ul id="mbmcpebul_table" class="mbmcpebul_menulist css_menu">
+  <li><div class="arrow buttonbg" style="width: 195px;"><a class="button_1">Account</a></div>
+    <ul>
+    <li class="last_item"><a href="admin_change_password.aspx" title="">Change Password</a></li>
+    </ul></li>
+  <li><div class="arrow_1 buttonbg" style="width: 101px;"><a>Question</a></div>
+    <ul>
+    <li><a href="upload_question.aspx" title="">Upload</a></li>
+    <li class="last_item"><a href="update_question.aspx" title="">Delete</a></li>
+    </ul></li>
+  <li><div class="arrow_1 buttonbg"><a class="button_3">Student</a></div>
+    <ul>
+    <li><a href="upload_student.aspx" title="">Registration</a></li>
+    <li class="last_item"><a href="update_student.aspx" title="">Update Profile</a></li>
+    </ul></li>
+  <li><div class="arrow_1 buttonbg" style="width: 96px;"><a>Teacher</a></div>
+    <ul>
+    <li><a href="upload_teacher.aspx" title="">Registration</a></li>
+    <li class="last_item"><a href="update_teacher.aspx" title="">Update Profile</a></li>
+    </ul></li>
+  <li><div class="arrow_1 buttonbg" style="width: 4px;height: 4px;"><a class="button_5">Queries</a></div>
+    <ul>
+    <li class="last_item"><a href="admin_query_replay.aspx" title="">Show Query</a></li>
+    </ul></li>
+  <li><div class="arrow_1 buttonbg" style="width: 85px;"><a>Notice</a></div>
+    <ul>
+    <li><a href="upload_notice.aspx" title="">Upload</a></li>
+    <li class="last_item"><a href="update_notice.aspx" title="">Update</a></li>
+    </ul></li>
+    <li><div class="arrow_1 buttonbg" style="width: 125px;"><a>Allotments</a></div>
+    <ul>
+       
+    <li class="last_item"><a href="allot_paper_for_teachers.aspx" title="">Paper Allot</a></li>
+    </ul></li>
+  <li><div class="arrow_1 buttonbg" style="width: 125px;"><a>Departments</a></div>
+    <ul>
+    <li><a href="dept_entry.aspx" title="">Upload</a></li>
+    <li class="last_item"><a href="dept_update.aspx" title="">Update</a></li>
+    </ul></li>
+    <li><div class="buttonbg" style="width: 80px;"><a href="admin_login.aspx" class="button_10">Log Out</a></div></li>
+  </ul>
+</div>
+<!-- Menus will work without this javascript file. It is used only for extra
+     effects, improved usability, compatibility with very old web browsers
+     and support for touch screen devices. -->
+<script type="text/javascript" src="index_files/mbjsmbmcp.js"></script>
+</body>
+</html>
+
+
+        </asp:Panel>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:Panel ID="Panel3" runat="server" BackColor="#26169A" Height="54px">
+            <table class="style1">
+                <tr>
+                    <td class="style2">
+                        &nbsp;<asp:Image ID="Image1" runat="server" Height="34px" 
+                            ImageUrl="~/photos/fblogo.png" Width="36px" />
+                    </td>
+                    <td class="style6">
+                        <asp:Label ID="Label1" runat="server" Font-Size="Large" ForeColor="White" 
+                            Text="Online Examination System of PBC"></asp:Label>
+                    </td>
+                    <td class="style3">
+                        <asp:Image ID="Image2" runat="server" Height="35px" 
+                            ImageUrl="~/photos/gmail.png" style="margin-left: 0px" Width="37px" />
+                    </td>
+                    <td class="style5">
+                        <asp:Label ID="Label2" runat="server" Font-Size="Large" ForeColor="White" 
+                            Text="onlineexama@gmail.com"></asp:Label>
+                    </td>
+                    <td class="style3">
+                        <asp:Image ID="Image3" runat="server" Height="30px" 
+                            ImageUrl="~/photos/copyright.png" Width="36px" />
+                    </td>
+                    <td>
+                        <asp:Label ID="Label3" runat="server" Font-Size="Large" ForeColor="White" 
+                            Text="All rights resurved by pbconlineexam"></asp:Label>
+                    </td>
+                </tr>
+            </table>
+        </asp:Panel>
+    </div>
+    </form>
+</body>
+</html>
